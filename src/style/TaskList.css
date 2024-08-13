@@ -1,0 +1,23 @@
+.taskList{
+    display:flex;
+    align-items: center;
+}
+.ActionButtons{
+    padding: 2rem;
+}
+.ActionButtons button{
+    border: none;
+    padding: .5rem;
+    border-radius: 5px;
+    margin: 0 .5rem;
+    color:aliceblue
+}
+.taskList div{
+    margin: 0 1rem;
+}
+.completed{
+    background-color: rgb(11, 115, 180);
+}
+.uncompleted{
+    background-color: rgb(215, 12, 12);
+}
